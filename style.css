@@ -108,13 +108,12 @@ body {
     float: right;
     color: white;
     font-size: 0.8em;
+    margin-bottom: 2em;
   }
 
   table tr th{
     color: #b87b99
   }
-
-  
 
   .footer {
     padding: 1em;
