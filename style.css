@@ -115,8 +115,10 @@ body {
   }
 
   /*Social media icons*/
-  social a {
+  social a i{
     text-decoration: none;
+    font-size: 36px;
+    color: #a14272;
   }
 
   .footer {
