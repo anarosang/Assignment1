@@ -44,7 +44,7 @@ body {
   /*Form*/
   form{
     margin-top: 0.5em;
-    width: 35%;
+    width: 30%;
     padding: 12px;
     border-radius: 4px;
     border-style: none;
@@ -104,7 +104,7 @@ body {
   /*Table*/
   table{
     margin-top: 3.5em;
-    width: 65%;
+    width: 70%;
     color: white;
     font-size: 0.8em;
     float: right;
