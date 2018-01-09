@@ -32,7 +32,7 @@ body {
   aside h1{
     font-family: 'Dancing Script', cursive;
     font-size: 2em;
-    color: rgba(172, 46, 94, 0.911);
+    color: #692648;
   }
 
 /* Change the link color on hover 
@@ -111,7 +111,7 @@ body {
   }
 
   table tr th{
-    color: #b87b99
+    color: #692648;
   }
 
   .footer {
