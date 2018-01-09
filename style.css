@@ -115,7 +115,11 @@ body {
   }
 
   /*Social media icons*/
-  
+  social a{
+    margin-top: 3em;
+    font-size: 36px;
+    color: #b87b99
+  }
 
   .footer {
     padding: 1em;
