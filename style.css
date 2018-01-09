@@ -108,6 +108,7 @@ body {
     width: 70%;
     color: white;
     font-size: 0.8em;
+    float: left;
   }
 
   table tr th{
