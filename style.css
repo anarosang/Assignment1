@@ -10,7 +10,7 @@ body {
     background: rgba(172, 46, 94, 0.911);
   }
   
-  nav ul{
+  .nav ul{
     padding:15px;
     margin-top: 0em;
     margin-bottom: 0em;
@@ -19,20 +19,32 @@ body {
     
   }
 
-  nav ul li{
+  .nav ul li{
     display:inline;
     margin: 20px;
   }
 
-  nav ul li a{
+  .nav ul li a{
     text-decoration: none;
     color: #ffffff;
   }
 
-  aside h1{
+  h1{
     font-family: 'Dancing Script', cursive;
     font-size: 2em;
     color: #692648;
+    margin-bottom: 1em;
+    text-align: left;
+  }
+
+  aside a{
+    font-size:45px;
+    color:#692648;
+    opacity: 0.5;
+  }
+
+  aside a:hover{
+    opacity: 1.0;
   }
 
 /* Change the link color on hover 
@@ -44,12 +56,10 @@ body {
   /*Form*/
   form{
     margin-top: 0.5em;
-    width: 30%;
+    width: 35%;
     padding: 12px;
-    border-radius: 4px;
-    border-style: none;
     box-sizing: border-box;
-    float: left;
+    float: right;
   }
 
   form fieldset{
@@ -101,17 +111,34 @@ body {
     cursor: pointer;
   }
 
-  /*Table*/
-  table{
+  /*Footer table*/
+  footer table{
     margin-top: 3.5em;
-    width: 70%;
+    width: 50%;
     color: white;
     font-size: 0.8em;
-    float: right;
+    float: left;
   }
 
-  table tr th{
+  footer table tr th{
     color: #692648;
+  }
+
+  /*All tables*/
+  .main table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .main table td, .main table th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  .main table tr:nth-child(even) {
+    background-color: #dddddd;
   }
 
   .footer {
@@ -128,7 +155,7 @@ body {
 
   .main {
     padding: 1em;
-    text-align: right;
+    text-align: left;
     background: #ffffff
   }
 
