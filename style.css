@@ -185,7 +185,8 @@ opacity: 1;
   .main table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: auto;
+    height: auto;
   }
 
   .main table td, .main table th {
@@ -202,6 +203,8 @@ opacity: 1;
     padding: 1em;
     text-align: center;
     color: white;
+    width: auto;
+    height: auto;
   }
 
   .wrapper {
@@ -236,6 +239,8 @@ opacity: 1;
   @media (min-width: 30em) {
     .nav {
       display: block;
+      width: auto;
+      height: auto;
     }
     .wrapper {
       flex-direction: row;
@@ -245,5 +250,6 @@ opacity: 1;
     }
     .aside {
       width: 45%;
+      height: auto;
     }
 }
