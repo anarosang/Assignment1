@@ -181,6 +181,11 @@ opacity: 1;
     color: #692648;
   }
 
+  footer table tr td a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+
   /*All tables*/
   .main table {
     font-family: arial, sans-serif;
