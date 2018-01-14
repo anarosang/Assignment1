@@ -171,12 +171,20 @@ opacity: 1;
   
 
   /*Footer table*/
-  footer table {
+  indfooter table {
     margin-top: 3em;
     width: 50%;
     color: white;
     font-size: 0.8em;
     float: left;
+  }
+
+  footer table{
+    margin-top: 1em;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 0.8em;
   }
   
   footer table tr th{
