@@ -53,7 +53,7 @@ body {
     font-style: oblique;
     font-weight: bold;
   }
-
+  
 /* My choice page image*/
 figure{
   width: 30%;
@@ -202,16 +202,17 @@ opacity: 1;
     border-collapse: collapse;
     width: auto;
     height: auto;
+    font-size: 20px;
   }
 
   .main table td, .main table th {
-    border: 1px solid #dddddd;
+    border: 1px solid rgb(221, 221, 221);
     text-align: left;
     padding: 8px;
   }
 
   .main table tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #dddddd85;
   }
 
   .footer {
