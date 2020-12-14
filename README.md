@@ -1,5 +1,5 @@
 # Assignment1
-<h1>‘Web Development CV’<h1>
+<h1>‘Web Development CV’</h1>
 <p>Using only HTML5 and CSS, to create four (6) web pages:</p>
 <ul>
 <li> index.html – the first page is called your landing page. This page is accessed by your web page settings on GitHub. Review the videos in the resit folder for more information. The url will be: http://YOUR_GITHUB_USERNAME.github.io. You must submit a live version of your website on GitHub.</li>
